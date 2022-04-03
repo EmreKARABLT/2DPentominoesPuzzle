@@ -9,19 +9,30 @@ Overview In this repository you will find the code for Project 1.1 - Phase 1 of 
 
 The basic search algorithm works based on the random computer-generated mutations of pieces. It works in the following order:
 
+
 It generates a two-dimensional array of given size filled with "-1"
+
 Takes random variations of the pentominoes and tries to fit them on the grid in a random x and y position.
-Checks whether the grid is filled. IF YES > prints out the solution IF NOT > clears the array, fills it with "-1". Tries again from step-2.
+
+Checks whether the grid is filled. IF YES > prints out the solution IF NOT > clears the array, fills it with "-1". Tries again from 
+step-2.
+
+
 The recusrive algorithm is based on recursion, pruning and backtracking. It includes the floodfill concept as well. It works in the following order:
 
 It generates a two-dimensional array of given size filled with "-1"
+
 The puzzleSolver method is called in the main, initializing the creation of the arrayList 'order'
+
 If puzzleSolver evaluates to false, there is no solution
+
 If puzzleSolver evaluates to true, it recursively tries different mutations of the pentominos in the running field
+
 User Instructions For further reference besides this README, check the javadoc folder.
 
 In this repository we have provided the following algorithms
 
 (1) RANDOM SEARCH ALGORITHM  -> This is saved as BasicSearch.java in test25/src 
+
 (2) RECURSIVE ALGORITHM      -> This is saved as Search.java in test25/src
 
